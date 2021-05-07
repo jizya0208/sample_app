@@ -91,3 +91,27 @@
   white-space: nowrap;
   text-overflow: ellipsis;
  }
+
+ .top {
+  background-image: url("welcome.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: bottom;
+ }
+
+ .post-wrap {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .post-content {
+  width: 80px;
+  text-align: center;
+  background-color: #cfecba;
+  border-radius: 20px;
+  margin: 10px 0;
+ }
+
+ .title-form {
+  width: 200px;
+ }
